@@ -1,0 +1,71 @@
+.images1 img{
+    width: 1515px;
+    height: 350px;
+    position: relative;
+    top:100px;
+    margin-left: 10px;
+}
+
+.images1 P{
+    position: absolute;
+    top:200px;
+    color: rgba(255, 255, 0, 0.903);
+   padding-left: 500px;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.images2 img{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    top:200px;
+    margin-left: 250px;
+}
+
+
+.aboutp{
+    margin: 50px;
+}
+.aboutp{
+    position: relative;
+    top:260px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.aboutp hr{
+    width: 800px;
+}
+
+
+.footera{
+  background-color: black;
+ margin: 0;
+ padding: 0;
+  position: relative;
+  top:300px;
+  height: 300px;
+  
+}
+
+.footera p{
+color: white;
+font-size:larger;
+text-align: center;
+position: relative;
+top:100px;
+
+}
+
+.line{
+  width: 700px;
+  position: relative;
+  top:130px;
+}
+
+#footra{
+    position: relative;
+  top:170px;
+  color: gainsboro;;
+}

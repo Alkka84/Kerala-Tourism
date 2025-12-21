@@ -1,1 +1,152 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 
+.nav ul{
+  list-style-type:none;
+  display: flex;
+  background-color: rgb(233, 221, 204);
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  gap:10px;
+}
+
+.nav li{
+  /* border: 1px solid black; */
+padding: 25px;
+}
+
+.keralatrsm{
+  margin-left: 150px;
+  margin-right: 250px;
+  
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.nav a:hover{
+  color: orange;
+}
+
+.images{
+  position: relative;
+  top:80px;
+  height:350px;
+  /* border: 1px solid black; */
+  margin: 20px;
+  padding: 25px;
+}
+
+.gallery{
+  border:1px solid black;
+  height: 300px;
+  width: 450px;
+  float: left;
+ 
+ margin: 10px;
+}
+
+.images img{
+  height: 300px;
+  width: 450px;
+}
+
+.explore{
+  height: 800px;
+  width: 1060px;
+
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3,350px);
+}
+.exploreh{
+  text-align: center;
+}
+
+.exploreimg{
+border: 1px solid gainsboro;
+width: 285px;
+height: 330px;
+ margin: 25px;
+ border-radius: 5px;
+ padding: 10px;
+}
+
+.exploreimg img{
+height: 300px;
+  width: 280px;
+
+}
+
+.exploreimg:hover{
+border-color: red;
+}
+
+.desc{
+
+  text-align: center;
+  padding: 5px;
+}
+
+.headng{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about{
+  width: 80%;
+  border:1px solid blue;
+  margin: auto;
+   background-color: rgb(216, 231, 244);
+}
+
+.paragraph{
+ 
+  height: 400px;
+  line-height: 30px;
+  text-align: justify;
+  padding: 10px;
+  
+}
+
+.footer{
+  background-color: black;
+ margin: 0;
+ padding: 0;
+  position: relative;
+  top:20px;
+  height: 300px;
+  
+}
+
+.footer p{
+color: white;
+font-size:larger;
+text-align: center;
+position: relative;
+top:100px;
+
+}
+
+.line{
+  width: 700px;
+  position: relative;
+  top:130px;
+}
+
+#footr{
+    position: relative;
+  top:170px;
+  color: gainsboro;;
+}

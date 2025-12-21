@@ -1,0 +1,125 @@
+body{
+    
+
+   background-color: white;
+}
+
+.contactimg img{
+
+    border: 1px solid black;
+    width: 1520px;
+    height: 500px;
+}
+
+.contacth h1{
+text-align: center;
+}
+
+.contacthr{
+    width: 50%;
+}
+.contactimg p{
+    position: absolute;
+    top:200px;
+    color: beige;
+   padding-left: 500px;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.loginform2{
+    border:1px solid  gainsboro;
+position: relative;
+top:40px;
+width: 800px;
+height: 400px;
+
+margin: auto;
+margin-top: 10px;
+border-radius: 5px;
+padding: 10px;
+ backdrop-filter: blur(8px);
+}
+
+.loginform1 h2{
+    text-align: center;
+}
+
+.loginform2 tr,td{
+   
+    padding: 20px;
+}
+.loginform2 label{
+  margin-left: 100px;
+font-size: larger;
+
+}
+
+.loginform2 td{
+    width: 10px;
+    margin: 10px;
+}
+
+
+.loginform2 input{
+    border:1px solid gainsboro;
+width: 300px;
+ padding: 10px;
+/* margin-left: 10px; */
+margin-right: 30px;
+border-radius: 5px;
+
+}
+.loginform2 textarea{
+width: 700px;
+height: 100px;
+margin-top: 20px;
+margin-left: 25px;
+border-radius: 5px;
+}
+.loginform2 button{
+display: block;
+margin: auto;
+margin-top: 30px;
+width: 200px;
+padding: 10px;
+border-radius: 5px;
+border:1px solid gainsboro;
+font-size: larger;
+background-color: rgb(188, 188, 216);
+}
+
+
+
+.footer1{
+  background-color: black;
+ margin: 0;
+ padding: 0;
+  position: relative;
+  top:200px;
+  height: 300px;
+  
+}
+
+.footer1 p{
+color: white;
+font-size:larger;
+text-align: center;
+position: relative;
+top:100px;
+
+}
+
+.line1{
+  width: 700px;
+  position: relative;
+  top:130px;
+}
+
+#footr1{
+    position: relative;
+  top:170px;
+  color: gainsboro;;
+}
+

@@ -1,0 +1,91 @@
+body{
+    background-image: url('/Kerala-Tourism/images/login.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginform1{
+    border:1px solid  gainsboro;
+position: relative;
+top:100px;
+width: 700px;
+height: 600px;
+margin: auto;
+margin-top: 10px;
+border-radius: 5px;
+padding: 10px;
+ backdrop-filter: blur(8px);
+}
+
+.loginform1 h1{
+    text-align: center;
+}
+
+.loginform1 tr,td{
+    
+    padding: 20px;
+}
+.loginform1 label{
+  margin-left: 100px;
+font-size: larger;
+
+}
+
+.loginform1 td{
+    width: 10px;
+    margin: 10px;
+}
+
+
+.loginform1 input{
+    border:1px solid gainsboro;
+width: 300px;
+ padding: 10px;
+margin-left: 10px;
+border-radius: 5px;
+
+}
+
+.loginform1 button{
+display: block;
+margin: auto;
+margin-top: 30px;
+width: 200px;
+padding: 10px;
+border-radius: 5px;
+border:1px solid gainsboro;
+background-color: rgb(147, 147, 231);
+font-size: larger;
+}
+
+
+.footer1{
+  background-color: black;
+ margin: 0;
+ padding: 0;
+  position: relative;
+  top:200px;
+  height: 300px;
+  
+}
+
+.footer1 p{
+color: white;
+font-size:larger;
+text-align: center;
+position: relative;
+top:100px;
+
+}
+
+.line1{
+  width: 700px;
+  position: relative;
+  top:130px;
+}
+
+#footr1{
+    position: relative;
+  top:170px;
+  color: gainsboro;;
+}
+

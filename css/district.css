@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul{
+  list-style-type:none;
+  display: flex;
+  background-color: rgb(233, 221, 204);
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  gap:10px;
+}
+
+.nav li{
+  /* border: 1px solid black; */
+padding: 25px;
+}
+
+.keralatrsm{
+  margin-left: 150px;
+  margin-right: 250px;
+  
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.nav a:hover{
+  color: orange;
+}
+
+.districth{
+    position: relative;
+    top:80px;
+    text-align: center;
+}
+
+.districts{
+    position: absolute;
+    top: 155px;
+display: grid;
+grid-template-columns: repeat(3,500px);
+}
+
+.district{
+    border:2px solid gainsboro;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.district img{
+    width: 400px;
+    height: 400px;
+}
+
+.district p{
+    text-align: center;
+}
+
+.district:hover{
+    border-color: red;
+}
+
+.pagination{
+      text-align: center;
+    position: relative;
+    top:1300px;
+  
+  
+    width: 700px;
+    margin-left: 350px;
+}
+
+.pagination a{
+text-decoration: none;
+border: 1px solid blue;
+font-size: x-large;
+margin: 10px;
+padding: 15px;
+}
+
+.footer{
+  background-color: black;
+ margin: 0;
+ padding: 0;
+  position: relative;
+  top:1350px;
+  height: 300px;
+  
+}
+
+.footer p{
+color: white;
+font-size:larger;
+text-align: center;
+position: relative;
+top:100px;
+
+}
+
+.line{
+  width: 700px;
+  position: relative;
+  top:130px;
+}
+
+#footr{
+    position: relative;
+  top:170px;
+  color: gainsboro;;
+}
