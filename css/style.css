@@ -90,6 +90,10 @@ height: 300px;
 
 }
 
+/* .exploreimg img:hover{
+   transform: scale(1.1);
+} */
+
 .exploreimg:hover{
 border-color: red;
 }

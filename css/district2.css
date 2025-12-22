@@ -64,6 +64,10 @@ grid-template-columns: repeat(3,500px);
     height: 400px;
 }
 
+.district1 img:hover {
+    transform: scale(1.05); /* zoom effect */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3); /* shadow effect */
+}
 .district1 p{
     text-align: center;
 }
