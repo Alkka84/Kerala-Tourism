@@ -76,7 +76,7 @@ padding: 25px;
 }
 
 .exploreimg{
-border: 1px solid gainsboro;
+border: 1px solid rgb(226, 31, 31);
 width: 285px;
 height: 330px;
  margin: 25px;
@@ -95,7 +95,8 @@ height: 300px;
 } */
 
 .exploreimg:hover{
-border-color: red;
+/* border-color: red; */
+transform: scale(1.05);
 }
 
 .desc{
